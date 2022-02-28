@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #15</title>
+</head>
+
+<body style="font-weight: bold;">
+    <table border="1" style="border:1px solid blac;  border-collapse: collapse; width: 50%; margin-left: auto;
+    margin-right: auto;">
+        <!---First Row -->
+        <tr>
+            <td colspan="5" style="text-align: center; font-weight: bold;">Assignment 1</td>
+        </tr>
+        <!---Second Row -->
+        <tr>
+            <td rowspan="4" style="vertical-align:text-top; padding-left: 10px; width: 30%;">Student</td>
+            <td style="width: 25%; padding-left: 10px;">name</td>
+            <td style="width: 25%; padding-left: 10px;">Hashem</td>
+            <td rowspan="3" style="padding-left: 10px;">
+                <a href="https://www.zu.edu.jo" style="display: block;">www.zu.edu.jo</a>
+                <img src="./zarqa.jpg" alt="Zarqa logo picture" height="130px" width="150px">
+            </td>
+        </tr>
+         <!---Third Row -->
+        <tr>
+            <td style="width: 25%; padding-left: 10px;">E-mail</td>
+            <td style="width: 25%; padding-left: 10px;"><a href="https://H@zu.edu.jo">H@zu.edu.jo</a></td>
+        </tr>
+        <!---Fourth Row -->
+        <tr>
+            <td rowspan="2" style="vertical-align: text-top; padding-left: 10px;">ID</td>
+            <td  style="vertical-align: text-top; padding-left: 10px;">20201212</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td rowspan="2" style="vertical-align: text-top; padding-left: 10px;">Courses</td>
+            <td colspan="4">
+                <ol type="1" style="margin-top: 0;" >
+                    <li style="padding-left: 15px; vertical-align: text-top;">Programming Languages:</li>
+                    <ol type="1" style="padding-left: 30px;">
+                        <li style="padding-left: 9px;">C#</li>
+                        <li style="padding-left: 9px;">Java</li>
+                        <li style="padding-left: 9px;">Python</li>
+                    </ol>
+                    <li style="padding-left: 15px;">Math</li>
+                    <ul type="none">
+                        <li>Calculus 1</li>
+                        <li>Linear algebra</li>
+                    </ul>
+                </ol>
+            </td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+            <td rowspan="10" colspan="5">
+                <h2 style="padding-left: 15px;">Create new e-mail</h2>
+                <p style="padding-left: 15px;">This form is to create a new e-mail at Zarqa university</p>
+                <form style="padding-left: 15px;">
+                    <label for="fname">first Name</label>
+                    <input type="text" name="first name" id="fname">
+                    <br>
+                    <br>
+                    <label for="lname">last Name</label>
+                    <input type="text" name="last name" id="lname">
+                    <br>
+                    <br>
+                    <label for="uname">User Name</label>
+                    <input type="text" name="user name" id="uname" placeholder="name@zu.edu.jo">
+                    <label>(name@domain.com)</label>
+                    <br>
+                    <br>
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password">
+                    <label>(You must enter password)</label>
+                    <br>
+                    <br>
+                    <label for="birthdate">birtDate</label>
+                    <input type="datetime" name="birthDate" id="birthdate">
+                    <label>(yyy.mm.dd)</label>
+                    <br>
+                    <br>
+                    <label for="mobileNumber">mobile number</label>
+                    <input type="number" name="mobile number" id="mobileNumber" placeholder="(###) ### ####">
+                    <label>(###) ### ####</label>
+                    <br>
+                    <br>
+                    <label for="sex">sex</label>
+                    <select name="sex" id="sex">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button>Submit</button>
+                    <button>Clear</button>
+                    <br>
+                    <br>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
