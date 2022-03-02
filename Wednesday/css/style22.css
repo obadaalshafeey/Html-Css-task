@@ -1,0 +1,17 @@
+h1{
+    background-color: rgb(211, 54, 26);
+}
+.p-img{
+    height: 300px;
+    width: 340px;
+    border: 1px solid #e9e4e4;
+    background-image: url(../pokemon.jpg);
+    background-repeat:no-repeat ;
+    color: orangered;
+    text-align: center;
+    font-size: 18px;
+}
+.p-link{
+    color: blue;
+    text-decoration: underline;
+}

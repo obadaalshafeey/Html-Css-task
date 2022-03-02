@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(255 229 255);
+}
+.d1{
+    border: 2px solid black;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.s1{
+    background-color: rgb(224, 135, 75);
+    font-weight: bold;
+}
+.d2{
+    border: 3px dashed black;
+    padding: 10px;
+    width: 70%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.d2 p{
+    border: 3px dashed red;
+}
+.s2{
+    background-color: rgb(226, 226, 100);
+    font-weight: bold;
+}
+.d3{
+    border: 2px solid gray;
+    color: blueviolet;
+    padding: 10px;
+    width: 70%;
+    background-color: white;
+}
