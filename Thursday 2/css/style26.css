@@ -1,0 +1,9 @@
+.image{
+    position: fixed;
+    right: 30px;
+    top: 80px;
+    border: 1px solid black;
+    width: 11.5%;
+    height: 500px;
+    background-image: url(../blue-bird.jpg);
+}

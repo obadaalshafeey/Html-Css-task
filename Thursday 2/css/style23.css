@@ -1,0 +1,23 @@
+.container{
+    border-bottom: 1px solid #938f8f;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+.container div{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    height: 38px;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 3px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container .even{
+    display: none;
+}
+
+/************ Task 24 **************/

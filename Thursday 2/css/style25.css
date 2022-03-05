@@ -1,0 +1,28 @@
+.outer-green{
+    height: 620px;
+    border: 20px solid green;
+}
+.outer-yellow{
+    height: 93.75%;
+    border: 20px solid yellow;
+}
+.inner-green{
+    height: 93.5%;
+    border: 20px solid green;
+}
+.inner-yellow{
+    height: 93%;
+    border: 20px solid yellow;
+}
+.green-space{
+    height: 100%;
+    background-color: green;
+}
+.green-space p{
+    margin: 0;
+    position: relative;
+    top: 37%;
+    left: 40%;
+    color: white;
+    font-size: 50px;
+}
