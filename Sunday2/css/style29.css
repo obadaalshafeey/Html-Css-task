@@ -1,0 +1,44 @@
+button{
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    height: 120px;
+    width: 260px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    background: transparent;
+    font-size: 30px;
+    transition:color 0.25s ease;
+    border:3px solid white;
+    overflow:hidden;
+}
+  button::after {
+    position: absolute;
+    content: '';
+    top:0;
+    left: -120%;
+    width: 120%;
+    height: 100%;
+    background-color: #9cd4ee;;
+    transform-origin:left;
+    transition: 2s ease;
+    z-index:-1;
+  }
+  button:hover::after {
+    animation-name: background-color-changing;
+    animation-duration:3s;
+    transition:1s ease-in-out;
+  }
+  @keyframes background-color-changing{
+    0%{
+      left:-100%;
+    }
+    70%{
+      left:100%;
+    }
+    100%{
+     
+      left:200%;
+    }
+  }
