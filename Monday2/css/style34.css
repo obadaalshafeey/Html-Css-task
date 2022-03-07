@@ -1,0 +1,44 @@
+.container{
+    border: 8px solid rgb(185, 121, 0);
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    font-size: 100px;
+    color: white;
+    
+}
+.container div{
+    width: 25%;
+    text-align: center;
+}
+.one{
+    background-color: rgb(19, 167, 117); 
+}
+.two{
+    background-color: rgb(20, 111, 196); 
+}
+.three{
+    background-color: rgb(168, 38, 219); 
+}
+.four{
+    background-color: rgb(47, 52, 78);
+}
+.five{
+    background-color: yellow;
+}
+.six{
+    background-color: orange;
+}
+.seven{
+    background-color: rgb(238, 74, 74);
+}
+.eight{
+    background-color: rgb(158, 155, 155);
+}
+.nine{
+    background-color: rgb(84, 134, 84);
+}
+.ten{
+    background-color: rgb(1, 116, 87);
+}
