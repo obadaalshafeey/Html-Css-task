@@ -1,0 +1,41 @@
+.navbar-container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+.header-container{
+    background-color: rgb(241 237 237);
+    padding: 50px 0;
+    height:300px;
+}
+.warning{
+    border-radius: 10px;
+    margin:20px 0
+}
+.warning p{
+    display: inline-block;
+    color: rgb(114, 65, 65);
+    margin-bottom: 0;
+}
+.warning button{
+    float: right;
+    background: transparent;
+    border: none;
+    color: brown;
+}
+.heading1,
+.heading2,
+.heading3{
+    display: inline-block;
+    width: 27%;
+    margin: 30px;
+}
+.heading1 button,
+.heading2 button,
+.heading3 button{
+    border: 1px solid black;
+}
+.heading1 button span,
+.heading2 button span,
+.heading3button span{
+    padding: 10px;
+}

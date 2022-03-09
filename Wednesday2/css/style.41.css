@@ -1,0 +1,28 @@
+.table{
+    position: relative;
+    left: 25%;
+    margin-top: 50px;
+    width: 50%;
+}
+.table thead th{
+    border: 1px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+}
+.pink-background{
+    background-color: pink;
+}
+.pink-background td{
+    border:1px solid rgb(250, 128, 148);
+}
+.yellow-background{
+    background-color: rgb(196, 196, 21);
+}
+.yellow-background td{
+    border:1px solid rgb(160, 160, 0)
+}
+.blue-background{
+    background-color: rgb(59, 175, 230);
+}
+.blue-background td{
+    border: 1px solid rgb(46, 138, 180);
+}

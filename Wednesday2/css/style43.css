@@ -1,0 +1,42 @@
+.large-buttons{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(221 221 221);
+}
+.large-danger-button{
+    padding: 20px;
+    font-size: 30px;
+
+}
+.large-warning-button{
+    font-size: 25px;
+    color: white;
+    padding: 12px;
+}
+.small-buttons button{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.small-buttons .small-danger-button{
+    padding: 15px 30px;
+    font-size: 30px;
+}
+.small-buttons .small-warning-button{
+    padding: 8px 17px;
+    font-size: 27px;
+    color: white;
+}
+.small-buttons .small-success-button{
+    padding: 10px 13px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.small-buttons .small-secondery-button{
+    background-color: rgb(234 233 233);
+    color:black;
+    border-radius: 5px;
+    border:none;
+    font-size: 18px;
+}

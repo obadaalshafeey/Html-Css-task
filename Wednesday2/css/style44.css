@@ -1,0 +1,7 @@
+.first-radio,
+.second-radio{
+    display: inline-block;
+}
+.first-radio{
+    margin-right: 30px;
+}

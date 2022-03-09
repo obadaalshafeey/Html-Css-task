@@ -1,0 +1,23 @@
+.conatiner{
+    padding: 10px;
+}
+.gray{
+    background-color: gray;
+    height: 50px;
+}
+.dark-blue{
+    background-color: blue;
+    height: 200px;
+}
+.light-blue{
+    background-color: rgb(74, 181, 243);
+    height: 200px;
+}
+.yellow{
+    background-color: yellow;
+    height: 200px;
+}
+.orange{
+    background-color: orange;
+    height: 150px;
+}
